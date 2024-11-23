@@ -12,10 +12,6 @@ const agent = new AtpAgent({
   service: "https://bsky.social",
 });
 
-// const bleeps = [
-//   {text: ""}
-// ]
-
 async function main() {
   await agent.login({
     identifier: process.env.BLUESKY_USERNAME,
@@ -26,8 +22,6 @@ async function main() {
   });
   console.log("Just posted!");
 }
-
-main();
 
 // Run this on a cron job
 // const scheduleExpressionMinute = "* * * * *"; // Run once every minute for testing
