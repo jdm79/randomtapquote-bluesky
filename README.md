@@ -1,6 +1,6 @@
 # Random Quotes Tap Bot
 
-Built using the [BlueSky](https://bsky.app) platform, this bot emits a random quote from the movie This is Spinal Tap every hour, on the hour (using my [NPM package](https://www.npmjs.com/package/tap-quotes-npm-pkg)).
+Built using the [BlueSky](https://bsky.app) platform, this bot emits a random quote from the movie This is Spinal Tap every hour, on the hour (using my Spinal Tap quotes [NPM package](https://www.npmjs.com/package/tap-quotes-npm-pkg)).
 
 It uses the [starter bot template](https://docs.bsky.app/docs/starter-templates/bots).
 
