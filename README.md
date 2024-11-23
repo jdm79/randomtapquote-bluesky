@@ -6,4 +6,4 @@ It uses the [starter bot template](https://docs.bsky.app/docs/starter-templates/
 
 This bot can be found on Bluesky [here](https://bsky.app/profile/randomtapquote.bsky.social).
 
-It's currently running on my localhost, but might be deployed to a cloud service in the future.
+It's currently deployed on Heroku eco dyno.
