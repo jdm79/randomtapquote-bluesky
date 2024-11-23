@@ -3,7 +3,7 @@
 	"version": "0.1.0",
 	"private": true,
 	"scripts": {
-		"start": "ts-node src/index.ts",	},
+		"start": "ts-node src/index.ts"	},
 	"dependencies": {
 		"@atproto/api": "^0.13.18",
 		"cron": "^3.2.1",
