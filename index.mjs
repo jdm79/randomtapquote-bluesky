@@ -30,9 +30,9 @@ async function main() {
 main();
 
 // Run this on a cron job
-// const scheduleExpressionMinute = "* * * * *"; // Run once every minute for testing
-// const scheduleExpression = "0 * * * *"; // Run once every hour in prod
+const scheduleExpressionMinute = "* * * * *"; // Run once every minute for testing
+const scheduleExpression = "0 * * * *"; // Run once every hour in prod
 
-// const job = new CronJob(scheduleExpression, main); // change to scheduleExpressionMinute for testing
+const job = new CronJob(scheduleExpression, main); // change to scheduleExpressionMinute for testing
 
-// job.start();
+job.start();
