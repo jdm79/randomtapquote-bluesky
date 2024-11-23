@@ -23,6 +23,8 @@ async function main() {
   console.log("Just posted!");
 }
 
+main();
+
 // Run this on a cron job
 // const scheduleExpressionMinute = "* * * * *"; // Run once every minute for testing
 // const scheduleExpression = "0 * * * *"; // Run once every hour in prod
