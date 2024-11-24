@@ -15,10 +15,11 @@ async function main() {
     identifier: process.env.BLUESKY_USERNAME,
     password: process.env.BLUESKY_PASSWORD,
   });
+  let text = randomTapQuote();
   await agent.post({
-    text: randomTapQuote(),
+    text: text,
   });
-  console.log("Just posted!");
+  console.log(`Posted: ${text}`);
 }
 
 main();
